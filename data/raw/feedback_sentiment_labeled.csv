@@ -1,0 +1,13 @@
+comment,aspect,subject,label
+"Materinya jelas, runtut, dan mudah saya pahami",MATERI,Agama,POSITIF
+"Penjelasan materi membantu saya mengingat konsep penting",MATERI,Agama,POSITIF
+"Materi yang dibahas kurang jelas dan terlalu membingungkan",MATERI,Agama,NEGATIF
+"Beberapa bagian materi terasa biasa saja dan tidak terlalu sulit",MATERI,Agama,NETRAL
+"Penyampaian tryout tertata rapi sehingga saya mudah mengikuti alurnya",PENYAMPAIAN,Agama,POSITIF
+"Instruksi pengerjaan disampaikan dengan baik dan tidak membingungkan",PENYAMPAIAN,Agama,POSITIF
+"Cara penyampaiannya kurang jelas dan membuat saya bingung saat mulai",PENYAMPAIAN,Agama,NEGATIF
+"Alur penyampaiannya standar, tidak terlalu bagus tapi juga tidak buruk",PENYAMPAIAN,Agama,NETRAL
+"Soalnya menantang dan sesuai dengan materi yang sudah dipelajari",SOAL,Agama,POSITIF
+"Pilihan soal cukup bervariasi dan membuat saya lebih semangat belajar",SOAL,Agama,POSITIF
+"Soalnya terlalu sulit dan beberapa nomor kurang sesuai materi",SOAL,Agama,NEGATIF
+"Tingkat kesulitan soal menurut saya sedang dan masih wajar",SOAL,Agama,NETRAL

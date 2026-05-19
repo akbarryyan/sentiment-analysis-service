@@ -1,0 +1,23 @@
+{
+  "modelVersion": "nb-v1",
+  "algorithm": "MultinomialNB",
+  "vectorizer": "TfidfVectorizer",
+  "datasetPath": "data/raw/feedback_sentiment_labeled.csv",
+  "processedDatasetPath": "data/processed/feedback_sentiment_preprocessed.csv",
+  "modelPath": "app/ml/pipeline.joblib",
+  "rows": 12,
+  "classDistribution": {
+    "NEGATIF": 3,
+    "NETRAL": 3,
+    "POSITIF": 6
+  },
+  "evaluation": {
+    "mode": "train_only",
+    "testSize": 0.0,
+    "accuracy": null,
+    "classificationReport": null,
+    "trainRows": 12,
+    "testRows": 0,
+    "note": "Dataset belum cukup untuk train/test split terstratifikasi. Tambahkan data per label agar evaluasi lebih valid."
+  }
+}

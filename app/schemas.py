@@ -15,6 +15,11 @@ class SentimentLabel(str, Enum):
     NETRAL = "NETRAL"
 
 
+class AutoMethod(str, Enum):
+    LEXICON = "LEXICON"
+    NAIVE_BAYES = "NAIVE_BAYES"
+
+
 class PredictRequest(BaseModel):
     comment: str = Field(min_length=3, max_length=5000)
     aspect: LearningAspect
@@ -27,6 +32,7 @@ class PredictResponse(BaseModel):
     preprocessedText: str
     modelVersion: str
     modelReady: bool
+    autoMethod: AutoMethod
 
 
 class HealthResponse(BaseModel):

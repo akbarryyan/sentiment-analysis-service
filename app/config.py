@@ -10,6 +10,14 @@ class Settings(BaseSettings):
     app_port: int = Field(default=8000, alias="APP_PORT")
     model_version: str = Field(default="nb-v1", alias="MODEL_VERSION")
     model_path: str = Field(default="app/ml/pipeline.joblib", alias="MODEL_PATH")
+    training_dataset_export_url: str | None = Field(
+        default=None,
+        alias="TRAINING_DATASET_EXPORT_URL",
+    )
+    training_dataset_export_token: str | None = Field(
+        default=None,
+        alias="TRAINING_DATASET_EXPORT_TOKEN",
+    )
 
     model_config = SettingsConfigDict(
         env_file=".env",

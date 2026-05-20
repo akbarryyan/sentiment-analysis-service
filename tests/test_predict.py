@@ -31,3 +31,4 @@ def test_predict_endpoint_returns_expected_shape() -> None:
     assert "preprocessedText" in payload
     assert "modelVersion" in payload
     assert "modelReady" in payload
+    assert payload["autoMethod"] in {"LEXICON", "NAIVE_BAYES"}

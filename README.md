@@ -35,6 +35,19 @@ cp .env.example .env
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
+Untuk training otomatis dari web admin, isi juga `.env` service:
+
+```env
+TRAINING_DATASET_EXPORT_URL=http://127.0.0.1:3000/admin/feedback/export
+TRAINING_DATASET_EXPORT_TOKEN=isi-token-yang-sama-dengan-nextjs
+```
+
+Dan di `.env` Next.js:
+
+```env
+TRAINING_DATASET_EXPORT_TOKEN=isi-token-yang-sama-dengan-service
+```
+
 ## Dataset Training
 
 Format dataset awal ada di:
@@ -74,6 +87,18 @@ Jalankan training:
 
 ```bash
 python scripts/train_model.py
+```
+
+Secara default, script akan mencoba mengunduh dataset terbaru dari export admin lebih dulu.
+File hasil unduhan akan disimpan ke:
+
+`data/training/admin_feedback_export.csv`
+
+Kalau ingin tetap memakai file lokal manual, kosongkan `TRAINING_DATASET_EXPORT_URL` di `.env`
+atau jalankan:
+
+```bash
+python scripts/train_model.py --input data/raw/feedback_sentiment_labeled.csv --input-url ""
 ```
 
 Output yang dihasilkan:

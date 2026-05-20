@@ -3,6 +3,8 @@ import json
 import sys
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 import joblib
 import pandas as pd
@@ -24,6 +26,7 @@ REQUIRED_COLUMNS = {"comment", "aspect", "subject", "label"}
 
 
 def parse_args() -> argparse.Namespace:
+    settings = get_settings()
     parser = argparse.ArgumentParser(
         description="Train model Naive Bayes untuk analisis sentimen feedback siswa.",
     )
@@ -58,6 +61,21 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=42,
         help="Random state untuk split data.",
+    )
+    parser.add_argument(
+        "--input-url",
+        default=getattr(settings, "training_dataset_export_url", None),
+        help="URL export dataset dari admin feedback.",
+    )
+    parser.add_argument(
+        "--input-token",
+        default=getattr(settings, "training_dataset_export_token", None),
+        help="Token internal untuk mengakses export dataset admin.",
+    )
+    parser.add_argument(
+        "--download-output",
+        default="data/training/admin_feedback_export.csv",
+        help="Path penyimpanan lokal untuk dataset hasil unduhan export admin.",
     )
     return parser.parse_args()
 
@@ -124,6 +142,37 @@ def ensure_parent_dir(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
 
+def download_dataset_from_admin_export(
+    input_url: str | None,
+    input_token: str | None,
+    download_output_path: Path,
+) -> Path | None:
+    if not input_url:
+        return None
+
+    request = Request(input_url)
+
+    if input_token:
+        request.add_header("x-dataset-export-token", input_token)
+
+    try:
+        with urlopen(request, timeout=30) as response:
+            content = response.read()
+    except HTTPError as error:
+        raise RuntimeError(
+            f"Gagal mengambil dataset export admin. HTTP {error.code}.",
+        ) from error
+    except URLError as error:
+        raise RuntimeError(
+            f"Gagal terhubung ke export admin dataset: {error.reason}.",
+        ) from error
+
+    ensure_parent_dir(download_output_path)
+    download_output_path.write_bytes(content)
+
+    return download_output_path
+
+
 def main() -> None:
     args = parse_args()
     settings = get_settings()
@@ -132,6 +181,16 @@ def main() -> None:
     model_output_path = Path(args.output)
     metadata_output_path = Path(args.metadata_output)
     processed_output_path = Path(args.processed_output)
+    download_output_path = Path(args.download_output)
+
+    downloaded_dataset_path = download_dataset_from_admin_export(
+        input_url=args.input_url,
+        input_token=args.input_token,
+        download_output_path=download_output_path,
+    )
+
+    if downloaded_dataset_path is not None:
+        dataset_path = downloaded_dataset_path
 
     dataset = load_and_validate_dataset(dataset_path)
     dataset["preprocessed_text"] = dataset["comment"].apply(preprocess_text)
@@ -197,6 +256,7 @@ def main() -> None:
         "algorithm": "MultinomialNB",
         "vectorizer": "TfidfVectorizer",
         "datasetPath": str(dataset_path),
+        "datasetSource": "admin_export" if downloaded_dataset_path else "local_file",
         "processedDatasetPath": str(processed_output_path),
         "modelPath": str(model_output_path),
         "rows": int(len(dataset)),
@@ -212,6 +272,8 @@ def main() -> None:
 
     print("Training selesai.")
     print(f"Dataset        : {dataset_path}")
+    if downloaded_dataset_path is not None:
+        print(f"Sumber dataset : {args.input_url}")
     print(f"Baris terpakai : {len(dataset)}")
     print(f"Model output   : {model_output_path}")
     print(f"Metadata       : {metadata_output_path}")

@@ -11,3 +11,201 @@ comment,aspect,subject,label
 "Pilihan soal cukup bervariasi dan membuat saya lebih semangat belajar",SOAL,Agama,POSITIF
 "Soalnya terlalu sulit dan beberapa nomor kurang sesuai materi",SOAL,Agama,NEGATIF
 "Tingkat kesulitan soal menurut saya sedang dan masih wajar",SOAL,Agama,NETRAL
+"Materi yang disampaikan sangat jelas dan mudah dimengerti",MATERI,Agama,POSITIF
+"Penjelasan materi runtut dari dasar hingga lanjutan sehingga mudah diikuti",MATERI,Agama,POSITIF
+"Materi tentang ibadah dijelaskan secara lengkap dan komprehensif",MATERI,Agama,POSITIF
+"Penjelasan ayat dan hadis sangat membantu saya memahami konteks materi",MATERI,Agama,POSITIF
+"Materi disampaikan dengan cara yang menarik dan tidak membosankan",MATERI,Agama,POSITIF
+"Isi materi sangat informatif dan memperluas wawasan saya tentang agama",MATERI,Agama,POSITIF
+"Materi pembelajaran ini sangat sesuai dengan yang saya butuhkan",MATERI,Agama,POSITIF
+"Penjelasan materi dikaitkan dengan contoh nyata sehingga mudah dipahami",MATERI,Agama,POSITIF
+"Materinya terlalu cepat disampaikan sehingga sulit saya ikuti",MATERI,Agama,NEGATIF
+"Penjelasan materi agama kurang mendalam dan banyak yang terlewat",MATERI,Agama,NEGATIF
+"Materi yang diajarkan tidak sesuai dengan kurikulum yang seharusnya",MATERI,Agama,NEGATIF
+"Banyak bagian materi yang tidak dijelaskan sama sekali",MATERI,Agama,NEGATIF
+"Penjelasan materi sangat buruk dan tidak membantu pemahaman saya",MATERI,Agama,NEGATIF
+"Materi disampaikan tanpa contoh sehingga sulit dipahami",MATERI,Agama,NEGATIF
+"Saya tidak memahami materi yang dijelaskan sama sekali",MATERI,Agama,NEGATIF
+"Penjelasan kurang mendalam sehingga saya tidak benar-benar paham",MATERI,Agama,NEGATIF
+"Materi agama sudah cukup baik meski ada beberapa bagian yang kurang jelas",MATERI,Agama,NETRAL
+"Penjelasan materi sudah memadai untuk keperluan ujian meski bisa lebih detail",MATERI,Agama,NETRAL
+"Materi yang dibahas biasa saja, tidak ada yang spesial namun cukup",MATERI,Agama,NETRAL
+"Materi sudah mencakup poin penting meski belum seluruhnya tersampaikan",MATERI,Agama,NETRAL
+"Secara umum materi sudah bisa diikuti meskipun ada beberapa kekurangan",MATERI,Agama,NETRAL
+"Materi pembelajaran sudah sesuai standar meski perlu sedikit perbaikan",MATERI,Agama,NETRAL
+"Penyampaian materi sangat jelas dan mudah diikuti oleh semua siswa",PENYAMPAIAN,Agama,POSITIF
+"Guru menjelaskan dengan antusias sehingga saya ikut semangat belajar",PENYAMPAIAN,Agama,POSITIF
+"Cara penyampaian yang terstruktur membantu saya memahami alur pembelajaran",PENYAMPAIAN,Agama,POSITIF
+"Penyampaian dilakukan dengan tempo yang tepat sehingga mudah diikuti",PENYAMPAIAN,Agama,POSITIF
+"Penjelasan selalu disertai contoh konkret yang memudahkan pemahaman",PENYAMPAIAN,Agama,POSITIF
+"Gaya mengajar sangat menyenangkan dan interaktif",PENYAMPAIAN,Agama,POSITIF
+"Guru menyampaikan materi dengan sangat baik dan sabar",PENYAMPAIAN,Agama,POSITIF
+"Alur penyampaian jelas dari awal hingga akhir pembelajaran",PENYAMPAIAN,Agama,POSITIF
+"Cara penyampaian guru sangat cepat sehingga sulit diikuti siswa",PENYAMPAIAN,Agama,NEGATIF
+"Guru jarang masuk kelas sehingga banyak materi yang terlewat",PENYAMPAIAN,Agama,NEGATIF
+"Penyampaian materi tidak terstruktur dan sulit diikuti",PENYAMPAIAN,Agama,NEGATIF
+"Gaya mengajar membosankan dan membuat saya mengantuk di kelas",PENYAMPAIAN,Agama,NEGATIF
+"Instruksi tidak disampaikan dengan baik sehingga saya bingung mulai dari mana",PENYAMPAIAN,Agama,NEGATIF
+"Cara penyampaian kurang menarik dan monoton sepanjang pembelajaran",PENYAMPAIAN,Agama,NEGATIF
+"Penyampaian materi membingungkan dan tidak sistematis sama sekali",PENYAMPAIAN,Agama,NEGATIF
+"Sering terlambat masuk kelas sehingga waktu pembelajaran berkurang banyak",PENYAMPAIAN,Agama,NEGATIF
+"Penyampaian sudah memadai untuk keperluan pembelajaran meski bisa lebih baik",PENYAMPAIAN,Agama,NETRAL
+"Cara mengajar sudah standar dan sesuai dengan yang diharapkan secara umum",PENYAMPAIAN,Agama,NETRAL
+"Penyampaian tidak terlalu bagus namun masih bisa dipahami oleh siswa",PENYAMPAIAN,Agama,NETRAL
+"Tempo penyampaian sudah cukup baik meski ada sedikit yang terlalu cepat",PENYAMPAIAN,Agama,NETRAL
+"Ada beberapa bagian penyampaian yang baik dan ada yang perlu diperbaiki",PENYAMPAIAN,Agama,NETRAL
+"Secara keseluruhan penyampaian sudah bisa diikuti dengan baik",PENYAMPAIAN,Agama,NETRAL
+"Soal-soal tryout sangat sesuai dengan materi agama yang sudah diajarkan",SOAL,Agama,POSITIF
+"Soalnya bervariasi dan menguji pemahaman secara menyeluruh",SOAL,Agama,POSITIF
+"Kualitas soal sangat bagus dan sesuai standar ujian yang diharapkan",SOAL,Agama,POSITIF
+"Soal dibuat dengan baik dan relevan dengan materi yang dipelajari",SOAL,Agama,POSITIF
+"Soal tryout ini sangat membantu saya mengukur pemahaman materi",SOAL,Agama,POSITIF
+"Soalnya menantang dan membuat saya berpikir lebih mendalam",SOAL,Agama,POSITIF
+"Soal disusun secara sistematis dari yang mudah ke yang lebih sulit",SOAL,Agama,POSITIF
+"Kualitas soal sangat baik dan mencerminkan pemahaman materi yang mendalam",SOAL,Agama,POSITIF
+"Soal terlalu sulit dan tidak sesuai dengan materi yang telah diajarkan",SOAL,Agama,NEGATIF
+"Beberapa soal membingungkan karena pertanyaannya tidak jelas",SOAL,Agama,NEGATIF
+"Soal tidak relevan dengan apa yang sudah dipelajari di kelas",SOAL,Agama,NEGATIF
+"Banyak soal yang ambigu dan membuat saya ragu dalam menjawab",SOAL,Agama,NEGATIF
+"Soalnya terlalu banyak dibandingkan waktu yang tersedia untuk mengerjakan",SOAL,Agama,NEGATIF
+"Kualitas soal buruk dan tidak mencerminkan materi yang diajarkan",SOAL,Agama,NEGATIF
+"Banyak soal yang keluar dari konteks materi agama yang sudah dipelajari",SOAL,Agama,NEGATIF
+"Ada soal yang salah dan tidak memiliki jawaban yang benar sama sekali",SOAL,Agama,NEGATIF
+"Soalnya cukup baik meski ada beberapa yang kurang relevan dengan materi",SOAL,Agama,NETRAL
+"Kualitas soal biasa saja, tidak terlalu bagus tapi tidak buruk juga",SOAL,Agama,NETRAL
+"Soal sudah mencakup sebagian besar materi yang diajarkan",SOAL,Agama,NETRAL
+"Beberapa soal sudah baik, beberapa lagi masih perlu diperbaiki",SOAL,Agama,NETRAL
+"Ada soal yang bagus dan ada juga yang kurang sesuai dengan materi",SOAL,Agama,NETRAL
+"Soal cukup lengkap meski tidak mencakup semua topik materi agama",SOAL,Agama,NETRAL
+"Penjelasan rumus matematika sangat jelas dan mudah saya pahami",MATERI,Matematika,POSITIF
+"Materi matematika disampaikan secara bertahap sehingga mudah dimengerti",MATERI,Matematika,POSITIF
+"Konsep perhitungan dijelaskan dengan sangat baik dan detail",MATERI,Matematika,POSITIF
+"Materi yang diajarkan sangat relevan dan bermanfaat untuk ujian",MATERI,Matematika,POSITIF
+"Penjelasan materi matematika sangat komprehensif dan terstruktur",MATERI,Matematika,POSITIF
+"Saya sangat terbantu dengan penjelasan materi yang detail ini",MATERI,Matematika,POSITIF
+"Materi disajikan secara terstruktur sehingga mudah dipelajari kembali",MATERI,Matematika,POSITIF
+"Materinya lengkap dan mencakup semua topik yang perlu dipelajari",MATERI,Matematika,POSITIF
+"Penjelasan rumus matematika kurang jelas dan membuat saya bingung",MATERI,Matematika,NEGATIF
+"Materi matematika disampaikan terlalu cepat sehingga sulit dipahami",MATERI,Matematika,NEGATIF
+"Penjelasan konsep matematika tidak disertai contoh sehingga sulit dimengerti",MATERI,Matematika,NEGATIF
+"Materi yang dibahas terlalu padat sehingga tidak bisa dicerna dengan baik",MATERI,Matematika,NEGATIF
+"Banyak rumus penting yang tidak dijelaskan dengan cukup",MATERI,Matematika,NEGATIF
+"Materi matematika tidak sesuai dengan tingkat pemahaman siswa di kelas",MATERI,Matematika,NEGATIF
+"Penjelasan materi sangat buruk dan tidak membantu pemahaman sama sekali",MATERI,Matematika,NEGATIF
+"Materi yang diajarkan kurang relevan dengan soal ujian yang biasa keluar",MATERI,Matematika,NEGATIF
+"Materi matematika sudah cukup baik meski ada bagian yang kurang jelas",MATERI,Matematika,NETRAL
+"Penjelasan materi matematika sudah memadai meski bisa lebih diperdalam",MATERI,Matematika,NETRAL
+"Materi yang disampaikan standar sesuai dengan silabus yang ada",MATERI,Matematika,NETRAL
+"Materi sudah baik namun perlu ditambahkan lebih banyak contoh soal",MATERI,Matematika,NETRAL
+"Secara umum materi matematika bisa diikuti meski ada beberapa kekurangan",MATERI,Matematika,NETRAL
+"Materi tidak terlalu sulit dan tidak terlalu mudah, sudah sesuai standar",MATERI,Matematika,NETRAL
+"Cara penyampaian materi matematika sangat jelas dan terstruktur",PENYAMPAIAN,Matematika,POSITIF
+"Guru matematika mengajar dengan sangat efektif dan mudah dipahami",PENYAMPAIAN,Matematika,POSITIF
+"Penyampaian materi matematika sangat sistematis dan mudah diikuti",PENYAMPAIAN,Matematika,POSITIF
+"Langkah-langkah pengerjaan soal dijelaskan dengan sangat baik dan jelas",PENYAMPAIAN,Matematika,POSITIF
+"Cara mengajar matematika sangat variatif sehingga tidak membosankan",PENYAMPAIAN,Matematika,POSITIF
+"Penyampaian instruksi sangat mudah dipahami oleh seluruh siswa",PENYAMPAIAN,Matematika,POSITIF
+"Guru menjelaskan dengan sabar dan terperinci sehingga semua bisa paham",PENYAMPAIAN,Matematika,POSITIF
+"Cara penyampaian sangat menarik dan membuat semangat belajar matematika",PENYAMPAIAN,Matematika,POSITIF
+"Cara mengajar matematika membingungkan dan tidak efektif sama sekali",PENYAMPAIAN,Matematika,NEGATIF
+"Penyampaian terlalu teoritis tanpa contoh soal yang konkret dan nyata",PENYAMPAIAN,Matematika,NEGATIF
+"Alur penyampaian tidak jelas dan sering melompat-lompat antar topik",PENYAMPAIAN,Matematika,NEGATIF
+"Cara mengajar tidak bervariasi dan membuat siswa bosan mengikuti pelajaran",PENYAMPAIAN,Matematika,NEGATIF
+"Penjelasan tidak dipahami karena disampaikan terlalu cepat dan rumit",PENYAMPAIAN,Matematika,NEGATIF
+"Penyampaian materi matematika tidak konsisten dan sering melenceng topik",PENYAMPAIAN,Matematika,NEGATIF
+"Instruksi pengerjaan tryout tidak jelas dan membingungkan siswa",PENYAMPAIAN,Matematika,NEGATIF
+"Guru kurang dipahami karena cara mengajarnya tidak terstruktur dengan baik",PENYAMPAIAN,Matematika,NEGATIF
+"Penyampaian matematika sudah cukup baik secara umum meski tidak sempurna",PENYAMPAIAN,Matematika,NETRAL
+"Cara penyampaian sudah memadai meski ada beberapa bagian yang kurang jelas",PENYAMPAIAN,Matematika,NETRAL
+"Gaya penyampaian matematika biasa saja, tidak ada yang menonjol",PENYAMPAIAN,Matematika,NETRAL
+"Penyampaian sudah cukup terstruktur meski terkadang terlalu cepat",PENYAMPAIAN,Matematika,NETRAL
+"Cara mengajar sudah standar dan bisa diikuti oleh mayoritas siswa",PENYAMPAIAN,Matematika,NETRAL
+"Penyampaian tidak terlalu bagus tidak terlalu buruk, cukup untuk dipahami",PENYAMPAIAN,Matematika,NETRAL
+"Soal matematika sangat sesuai dengan materi yang sudah diajarkan",SOAL,Matematika,POSITIF
+"Soal matematika bervariasi dan menguji pemahaman dari berbagai sudut",SOAL,Matematika,POSITIF
+"Tingkat kesulitan soal matematika seimbang dan sesuai kemampuan siswa",SOAL,Matematika,POSITIF
+"Soal disusun dengan baik dan tidak ada yang ambigu sama sekali",SOAL,Matematika,POSITIF
+"Soal matematika menantang tapi masih bisa dikerjakan dengan baik",SOAL,Matematika,POSITIF
+"Semua soal relevan dengan materi matematika yang sudah dipelajari",SOAL,Matematika,POSITIF
+"Soal tryout ini sangat membantu persiapan ujian matematika saya",SOAL,Matematika,POSITIF
+"Soalnya bagus karena melatih kemampuan berpikir matematis saya",SOAL,Matematika,POSITIF
+"Soal matematika terlalu sulit dan tidak sesuai materi yang diajarkan",SOAL,Matematika,NEGATIF
+"Banyak soal matematika yang tidak jelas dan membingungkan",SOAL,Matematika,NEGATIF
+"Soal tidak sesuai dengan kurikulum matematika yang sedang dipelajari",SOAL,Matematika,NEGATIF
+"Waktu yang diberikan tidak cukup untuk menyelesaikan semua soal matematika",SOAL,Matematika,NEGATIF
+"Soal matematika tidak variatif dan monoton sehingga membosankan",SOAL,Matematika,NEGATIF
+"Kualitas soal matematika perlu ditingkatkan agar sesuai dengan materi",SOAL,Matematika,NEGATIF
+"Soal tidak seimbang, terlalu berat di beberapa topik saja",SOAL,Matematika,NEGATIF
+"Banyak soal matematika yang keluar dari konteks materi yang dipelajari",SOAL,Matematika,NEGATIF
+"Soal matematika sudah cukup baik meski ada beberapa yang kurang relevan",SOAL,Matematika,NETRAL
+"Tingkat kesulitan soal matematika sedang dan cukup wajar",SOAL,Matematika,NETRAL
+"Soal sudah mencakup sebagian besar topik matematika yang diajarkan",SOAL,Matematika,NETRAL
+"Kualitas soal matematika biasa saja, tidak terlalu bagus tapi tidak buruk",SOAL,Matematika,NETRAL
+"Beberapa soal matematika sudah baik, beberapa lagi masih kurang jelas",SOAL,Matematika,NETRAL
+"Soalnya tidak terlalu sulit dan tidak terlalu mudah, sudah cukup standar",SOAL,Matematika,NETRAL
+"Materi bahasa Indonesia sangat menarik dan mudah dipahami",MATERI,Bahasa Indonesia,POSITIF
+"Penjelasan tentang teks dan struktur bahasa sangat jelas dan terperinci",MATERI,Bahasa Indonesia,POSITIF
+"Materi puisi dan cerpen dijelaskan dengan sangat baik dan mendalam",MATERI,Bahasa Indonesia,POSITIF
+"Materi bahasa Indonesia sangat lengkap dan mencakup semua yang perlu dipelajari",MATERI,Bahasa Indonesia,POSITIF
+"Penjelasan tata bahasa dan kalimat efektif sangat membantu pemahaman saya",MATERI,Bahasa Indonesia,POSITIF
+"Saya senang karena materi bahasa Indonesia disampaikan dengan sangat baik",MATERI,Bahasa Indonesia,POSITIF
+"Materi bahasa Indonesia sangat informatif dan bermanfaat untuk ujian",MATERI,Bahasa Indonesia,POSITIF
+"Materi yang diajarkan sangat relevan dan sesuai dengan kebutuhan siswa",MATERI,Bahasa Indonesia,POSITIF
+"Penjelasan materi bahasa Indonesia kurang mendalam dan banyak yang terlewat",MATERI,Bahasa Indonesia,NEGATIF
+"Materi yang dibahas tidak sesuai dengan materi ujian yang sebenarnya",MATERI,Bahasa Indonesia,NEGATIF
+"Penjelasan tentang teks terlalu cepat sehingga tidak bisa dipahami",MATERI,Bahasa Indonesia,NEGATIF
+"Materi bahasa Indonesia sangat membingungkan dan tidak terstruktur",MATERI,Bahasa Indonesia,NEGATIF
+"Materi kurang relevan dengan kebutuhan siswa di tingkat ini",MATERI,Bahasa Indonesia,NEGATIF
+"Penjelasan materi bahasa Indonesia sangat buruk dan tidak bermanfaat",MATERI,Bahasa Indonesia,NEGATIF
+"Banyak topik bahasa Indonesia penting yang tidak pernah dibahas",MATERI,Bahasa Indonesia,NEGATIF
+"Materi terlalu padat sehingga tidak ada waktu untuk memahami setiap bagian",MATERI,Bahasa Indonesia,NEGATIF
+"Materi bahasa Indonesia sudah cukup baik secara keseluruhan",MATERI,Bahasa Indonesia,NETRAL
+"Penjelasan materi sudah memadai meski ada beberapa topik yang kurang jelas",MATERI,Bahasa Indonesia,NETRAL
+"Materi bahasa Indonesia standar sesuai silabus yang ada",MATERI,Bahasa Indonesia,NETRAL
+"Materi sudah lengkap namun bisa lebih diperkaya dengan contoh-contoh teks",MATERI,Bahasa Indonesia,NETRAL
+"Secara umum materi bahasa Indonesia sudah bisa diikuti oleh siswa",MATERI,Bahasa Indonesia,NETRAL
+"Materi tidak terlalu sulit dan tidak terlalu mudah, cukup sesuai standar",MATERI,Bahasa Indonesia,NETRAL
+"Penyampaian materi bahasa Indonesia sangat jelas dan menarik",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Guru bahasa Indonesia mengajar dengan cara yang sangat menyenangkan",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Cara penyampaian materi bahasa Indonesia sangat efektif dan terstruktur",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Penjelasan disampaikan dengan bahasa yang mudah dimengerti semua siswa",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Cara mengajar bahasa Indonesia sangat variatif sehingga tidak membosankan",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Penyampaian materi sangat profesional dan nyaman untuk diikuti",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Guru menyampaikan materi bahasa Indonesia dengan penuh semangat dan jelas",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Cara penyampaian sangat interaktif sehingga saya mudah memahami materi",PENYAMPAIAN,Bahasa Indonesia,POSITIF
+"Penyampaian materi bahasa Indonesia kurang menarik dan sangat monoton",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Cara mengajar membosankan dan tidak membuat semangat untuk belajar",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Instruksi tryout tidak disampaikan dengan jelas sehingga banyak yang bingung",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Penyampaian terlalu cepat sehingga tidak bisa mengikuti dengan baik",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Cara mengajar tidak efektif dan membuat sulit memahami materi bahasa",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Alur penyampaian tidak jelas dan melompat-lompat antar topik",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Penyampaian materi tidak dipahami karena terlalu rumit dan tidak terstruktur",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Guru sering tidak masuk sehingga banyak materi bahasa Indonesia yang terlewat",PENYAMPAIAN,Bahasa Indonesia,NEGATIF
+"Penyampaian bahasa Indonesia sudah cukup baik meski ada beberapa kekurangan",PENYAMPAIAN,Bahasa Indonesia,NETRAL
+"Cara mengajar bahasa Indonesia biasa saja, tidak ada yang istimewa",PENYAMPAIAN,Bahasa Indonesia,NETRAL
+"Penyampaian sudah memadai untuk keperluan tryout bahasa Indonesia ini",PENYAMPAIAN,Bahasa Indonesia,NETRAL
+"Cara mengajar sudah standar dan cukup untuk dipahami oleh mayoritas siswa",PENYAMPAIAN,Bahasa Indonesia,NETRAL
+"Penyampaian tidak terlalu bagus namun masih bisa diikuti dengan baik",PENYAMPAIAN,Bahasa Indonesia,NETRAL
+"Ada bagian penyampaian yang sudah baik dan ada yang perlu ditingkatkan",PENYAMPAIAN,Bahasa Indonesia,NETRAL
+"Soal bahasa Indonesia sangat sesuai dengan materi yang telah diajarkan",SOAL,Bahasa Indonesia,POSITIF
+"Soalnya bervariasi dan mencakup berbagai jenis teks yang dipelajari",SOAL,Bahasa Indonesia,POSITIF
+"Kualitas soal bahasa Indonesia sangat bagus dan menantang pemahaman",SOAL,Bahasa Indonesia,POSITIF
+"Soal disusun dengan baik dan tidak ada yang ambigu dalam pertanyaannya",SOAL,Bahasa Indonesia,POSITIF
+"Soal bahasa Indonesia membantu saya mengukur sejauh mana pemahaman saya",SOAL,Bahasa Indonesia,POSITIF
+"Soalnya lengkap mencakup semua aspek bahasa Indonesia yang diajarkan",SOAL,Bahasa Indonesia,POSITIF
+"Soal tryout bahasa Indonesia sangat bermanfaat untuk persiapan ujian",SOAL,Bahasa Indonesia,POSITIF
+"Soal disusun secara sistematis sehingga mudah dikerjakan satu per satu",SOAL,Bahasa Indonesia,POSITIF
+"Soal bahasa Indonesia terlalu sulit dan tidak sesuai materi yang diajarkan",SOAL,Bahasa Indonesia,NEGATIF
+"Beberapa soal bahasa Indonesia membingungkan dan tidak jelas maksudnya",SOAL,Bahasa Indonesia,NEGATIF
+"Soal tidak relevan dengan materi teks yang sudah dipelajari di kelas",SOAL,Bahasa Indonesia,NEGATIF
+"Banyak soal bahasa Indonesia yang ambigu dan sulit dipahami",SOAL,Bahasa Indonesia,NEGATIF
+"Soal terlalu banyak dibandingkan dengan waktu yang diberikan",SOAL,Bahasa Indonesia,NEGATIF
+"Kualitas soal bahasa Indonesia buruk dan tidak sesuai dengan standar",SOAL,Bahasa Indonesia,NEGATIF
+"Banyak soal yang keluar dari materi bahasa Indonesia yang telah dipelajari",SOAL,Bahasa Indonesia,NEGATIF
+"Soal tidak variatif dan hanya terfokus pada satu jenis teks saja",SOAL,Bahasa Indonesia,NEGATIF
+"Soal bahasa Indonesia sudah cukup baik meski ada beberapa yang kurang jelas",SOAL,Bahasa Indonesia,NETRAL
+"Tingkat kesulitan soal bahasa Indonesia sedang dan cukup sesuai",SOAL,Bahasa Indonesia,NETRAL
+"Soal sudah mencakup sebagian besar materi bahasa Indonesia yang diajarkan",SOAL,Bahasa Indonesia,NETRAL
+"Kualitas soal bahasa Indonesia biasa saja, tidak terlalu bagus tapi tidak buruk",SOAL,Bahasa Indonesia,NETRAL
+"Beberapa soal sudah baik, beberapa lagi masih perlu diperjelas",SOAL,Bahasa Indonesia,NETRAL
+"Soalnya tidak terlalu sulit dan tidak terlalu mudah, cukup standar",SOAL,Bahasa Indonesia,NETRAL

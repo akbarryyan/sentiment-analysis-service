@@ -3,21 +3,53 @@
   "algorithm": "MultinomialNB",
   "vectorizer": "TfidfVectorizer",
   "datasetPath": "data/raw/feedback_sentiment_labeled.csv",
+  "datasetSource": "local_file",
   "processedDatasetPath": "data/processed/feedback_sentiment_preprocessed.csv",
   "modelPath": "app/ml/pipeline.joblib",
-  "rows": 12,
+  "rows": 210,
   "classDistribution": {
-    "NEGATIF": 3,
-    "NETRAL": 3,
-    "POSITIF": 6
+    "NEGATIF": 75,
+    "NETRAL": 57,
+    "POSITIF": 78
   },
   "evaluation": {
-    "mode": "train_only",
-    "testSize": 0.0,
-    "accuracy": null,
-    "classificationReport": null,
-    "trainRows": 12,
-    "testRows": 0,
-    "note": "Dataset belum cukup untuk train/test split terstratifikasi. Tambahkan data per label agar evaluasi lebih valid."
+    "mode": "train_test_split",
+    "testSize": 0.2,
+    "accuracy": 0.8571428571428571,
+    "classificationReport": {
+      "NEGATIF": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8,
+        "f1-score": 0.8275862068965517,
+        "support": 15.0
+      },
+      "NETRAL": {
+        "precision": 1.0,
+        "recall": 0.8181818181818182,
+        "f1-score": 0.9,
+        "support": 11.0
+      },
+      "POSITIF": {
+        "precision": 0.7894736842105263,
+        "recall": 0.9375,
+        "f1-score": 0.8571428571428571,
+        "support": 16.0
+      },
+      "accuracy": 0.8571428571428571,
+      "macro avg": {
+        "precision": 0.8822055137844611,
+        "recall": 0.8518939393939394,
+        "f1-score": 0.8615763546798029,
+        "support": 42.0
+      },
+      "weighted avg": {
+        "precision": 0.8687790905836017,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8578114004222379,
+        "support": 42.0
+      }
+    },
+    "trainRows": 168,
+    "testRows": 42
   }
 }

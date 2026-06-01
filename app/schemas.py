@@ -16,7 +16,6 @@ class SentimentLabel(str, Enum):
 
 
 class AutoMethod(str, Enum):
-    LEXICON = "LEXICON"
     NAIVE_BAYES = "NAIVE_BAYES"
 
 

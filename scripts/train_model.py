@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 import joblib
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
@@ -220,11 +220,17 @@ def main() -> None:
         y_pred = pipeline.predict(x_test)
         accuracy = float(accuracy_score(y_test, y_pred))
         report = classification_report(y_test, y_pred, output_dict=True, zero_division=0)
+        cm_labels = sorted(ALLOWED_LABELS)
+        cm = confusion_matrix(y_test, y_pred, labels=cm_labels)
         evaluation = {
             "mode": "train_test_split",
             "testSize": args.test_size,
             "accuracy": accuracy,
             "classificationReport": report,
+            "confusionMatrix": {
+                "labels": cm_labels,
+                "matrix": cm.tolist(),
+            },
             "trainRows": int(len(x_train)),
             "testRows": int(len(x_test)),
         }
